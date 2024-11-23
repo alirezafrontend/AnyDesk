@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnyDesk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/master.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container-fluid" id="header">
+            <header class="container">
+                <div class="header-t pt-1 row justify-content-between">
+                    <div class="mode d-flex flex-wrap h-50 col-6 col-sm-6 col-md-4 align-items-center">
+                        <span class="d-flex me-2"></span>
+                        <p class="m-0">Dark Mode</p>
+                    </div>
+                    <div
+                        class="portal d-flex flex-wrap col-6 col-sm-6 col-md-4 align-items-start justify-content-sm-end justify-content-center">
+                        <span class="h-100 me-2 d-flex align-items-start">
+                            <img src="assets/img/header/phone-circle.svg" alt="">
+                        </span>
+                        <p class="me-2">Customer Portal</p>
+                        <span class="h-100 me-2 d-flex align-items-start mt-1">
+                            <img src="assets/img/header/us.svg" alt="">
+                        </span>
+                        <span>
+                            <img src="assets/img/header/arrow-down-1.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+                <div class="row header-b align-items-center justify-content-between text-light position-relative">
+                    <div class="col-3 col-sm-3 col-lg-2 align-content-center h-100">
+                        <figure class="m-0 align-content-center h-100">
+                            <img src="assets/img/header/logo.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="menu col-12 col-sm-12 col-lg-8 col-xl-6 d-lg-flex p-0">
+                        <nav class="w-100 navbar navbar-expand-lg justify-content-end ps-lg-3 position-static">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse align-content-lg-center p-0"
+                                id="navbarSupportedContent">
+                                <ul class="w-100 navbar-nav me-auto mb-2 mb-lg-0 gap-lg-5" id="navbarSupportedContent">
+                                    <li>
+                                        <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Why
+                                            AnyDesk
+                                            <span>
+                                                <img src="assets/img/header/arrow-down.svg" alt="">
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-navbar1 mx-lg-3">
+                                            <div class="float-md-start col-11 col-md-6 col-lg-3 mb-3 px-4 pt-2">
+                                                <p>Benefits</p>
+                                                <a href="#">Time-saving</a>
+                                                <a href="#">Customizable</a>
+                                                <a href="#">Secure</a>
+                                                <a href="#">All Platforms</a>
+                                            </div>
+                                            <div class="float-md-start col-11 col-md-6 col-lg-3 mb-3 px-4 pt-2">
+                                                <p>Features</p>
+                                                <a href="#">Access & Control</a>
+                                                <a href="#">Administration & Customization</a>
+                                                <a href="#">Security & Privacy</a>
+                                                <a href="#">Collaboration</a>
+                                            </div>
+                                            <div class="float-md-start col-11 col-md-6 col-lg-3 mb-3 px-4 pt-2">
+                                                <p>By Need</p>
+                                                <a href="#">Remote Support</a>
+                                                <a href="#">Remote Work</a>
+                                                <a href="#">Mobile Device Support</a>
+                                                <a href="#">Cloud vs On-Premises</a>
+                                                <a href="#">Enterprise Solution</a>
+                                            </div>
+                                            <div class="float-md-start col-11 col-md-6 col-lg-3 mb-3 px-4 pt-2">
+                                                <p>By Industry</p>
+                                                <a href="#">Education</a>
+                                                <a href="#">Government</a>
+                                                <a href="#">Corporations</a>
+                                                <a href="#">Media Creatives</a>
+                                                <a href="#">Information Technology <br> & Services</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-i-2">
+                                        <a href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">Partners
+                                            <span>
+                                                <img src="assets/img/header/arrow-down.svg" alt="">
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="float-md-start col-11 col-md-6 col-lg-12 mb-3 px-4 pt-2">
+                                                <p>Partners</p>
+                                                <a href="#">Partner Community</a>
+                                                <a href="#">Become a Partner</a>
+                                                <a href="#">Partner Locator</a>
+                                                <a href="#">Integration Partners</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-i-3">
+                                        <a href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">Company
+                                            <span>
+                                                <img src="assets/img/header/arrow-down.svg" alt="">
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="float-md-start col-11 col-md-6 mb-3 px-4 pt-2">
+                                                <p>Company</p>
+                                                <a href="#">AnyDesk Team</a>
+                                                <a href="#">Open Positions</a>
+                                                <a href="#">Press</a>
+                                                <a href="#">Events</a>
+                                            </div>
+                                            <div class="float-md-start col-11 col-md-6 mb-3 px-4 pt-2">
+                                                <p>Resources</p>
+                                                <a href="#">Case Studies</a>
+                                                <a href="#">AnyDesk Stories</a>
+                                                <a href="#">Resources Hub</a>
+                                                <a href="#">Tutorials</a>
+                                                <a href="#">Help Center</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-i-4">
+                                        <a href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">Support
+                                            <span>
+                                                <img src="assets/img/header/arrow-down.svg" alt="">
+                                            </span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <div class="float-md-start col-11 col-md-6 col-lg-12 mb-3 px-4 pt-2">
+                                                <p>Support</p>
+                                                <a href="#">Customer Portal</a>
+                                                <a href="#">Help Center</a>
+                                                <a href="#">Contact Us</a>
+                                            </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">Buy
+                                            Now
+                                            <span class="d-lg-none">
+                                                <img src="assets/img/header/arrow-right-1-white.svg" alt="">
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="contact d-none d-lg-flex justify-content-end align-items-center col-xl-4 col-2">
+                        <a class="d-none d-lg-flex d-xl-none" href="#">
+                            <img src="assets/img/header/headphones-customer-support-human.svg" alt="">
+                        </a>
+                        <a class="d-none d-lg-flex d-xl-none ms-3" href="#">
+                            <img src="assets/img/header/download-bottom.svg" alt="">
+                        </a>
+                        <a class="d-none d-xl-flex ms-3" href="#">
+                            <span>Contact US</span>
+                        </a>
+                        <a class="d-none d-xl-flex ms-3" href="#">
+                            <span>Downloads</span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- end header -->
+        <div class="bg-header container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 row">
+                        <div class="better col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end p-0">
+                            Better|</div>
+                        <div
+                            class="software col-12 col-sm-6 p-0 d-flex justify-content-center justify-content-sm-start">
+                            Software</div>
+                    </div>
+                    <div class="smart col-12 col-lg-8 offset-lg-2 mt-5 mb-4">
+                        <p class="h5 d-flex justify-content-center">The smart choice for remote access</p>
+                    </div>
+                    <div class="bg-btn row ">
+                        <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end">
+                            <a href="#">Download Now</a>
+                        </div>
+                        <div
+                            class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-start mt-4 mt-sm-0">
+                            <a href="#">
+                                Start Business Trial
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end bg-header -->
+
+        <div class="space container-fluid"></div>
+
+        <!-- end space -->
+
+        <div class="new container-fluid align-content-center py-5 py-xl-0">
+            <div class="container">
+                <div class="row">
+                    <div class="content-new col-12 col-xl-6 justify-content-xl-center">
+                        <div class="col-12">
+                            <p class="h5 text-center text-xl-start">Version 8 for Windows is Out Now</p>
+                        </div>
+                        <div class="col-12">
+                            <h2 class="text-center text-xl-start">See what's new</h2>
+                        </div>
+                        <div class="col-12">
+                            <p class="text-center text-xl-start">Experience the power of AnyDesk Version 8, where robust
+                                encryption and dynamic client
+                                management
+                                through my.anydesk II come together for the smart choice in remote access software.
+                            </p>
+                        </div>
+                        <div class="mt-5 d-flex justify-content-center justify-content-xl-start">
+                            <a class="" href="#">
+                                Discover More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-new col-12 d-xl-none mt-5 d-flex justify-content-center">
+                        <img src="assets/img/New/what-is-new-v8-small-8ce1ea.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end new -->
+
+        <div class="customers container-fluid">
+            <div class="container">
+                <div class="cus-text col-12">
+                    <h2 class="d-flex justify-content-center">Trusted by over 200,000 customers</h2>
+                </div>
+                <div class="cus-item d-flex col-12">
+                    <div>
+                        <img src="assets/img/cus/1-e.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/cus/2-e.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/cus/4-ca3d55.jpg" alt="">
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <img src="assets/img/cus/7-759164.jpg" alt="">
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <img src="assets/img/cus/6-fda374.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end customers -->
+
+        <div class="license container-fluid align-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-md-6 d-none d-sm-block"></div>
+                    <div class="content-license col-12 col-sm-8 col-md-6 mt-5">
+                        <h3 class="text-center text-sm-start mb-3">Unsure which license <br> fits your needs?</h3>
+                        <p class="text-center text-sm-start mb-5">We guide you through our plans in less than a minute.
+                        </p>
+                        <div class="d-flex justify-content-center justify-content-sm-start">
+                            <a href="#">Go to the License Configurator</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end customers -->
+
+        <div class="spotlight container-fluid">
+            <div class="container h-spot">
+                <h2 class="text-center">Customer spotlight</h2>
+            </div>
+            <div class="row col-12 img-spot mt-5">
+                <div class="col-12 col-md-6 col-xl-4 pe-0 overflow-hidden position-relative">
+                    <img src="assets/img/spotlight/8.jpg" alt="">
+                    <div
+                        class="txt-spot position-absolute w-100 h-100 justify-content-center align-content-center px-5 text-light">
+                        <h3 class="my-3">Data Integration Center</h3>
+                        <h5 class="my-3">Magdeburg Data Integration Center uses AnyDesk's On-Premises solution for
+                            maximum security
+                            of sensitive data.
+                        </h5>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 pe-0 overflow-hidden position-relative mt-2 m-md-0">
+                    <img src="assets/img/spotlight/17.jpg" alt="">
+                    <div
+                        class="txt-spot position-absolute w-100 h-100 justify-content-center align-content-center px-5 text-light">
+                        <h3 class="my-3">Data Integration Center</h3>
+                        <h5 class="my-3">Magdeburg Data Integration Center uses AnyDesk's On-Premises solution for
+                            maximum security
+                            of sensitive data.
+                        </h5>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-xl-4 d-none d-xl-block pe-0 overflow-hidden position-relative">
+                    <img src="assets/img/spotlight/14.jpg" alt="">
+                    <div
+                        class="txt-spot position-absolute w-100 h-100 justify-content-center align-content-center px-5 text-light">
+                        <h3 class="my-3">Data Integration Center</h3>
+                        <h5 class="my-3">Magdeburg Data Integration Center uses AnyDesk's On-Premises solution for
+                            maximum security
+                            of sensitive data.
+                        </h5>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end spotlight -->
+
+        <div class="needs container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="h-needs">
+                        <h3 class="text-center">AnyDesk fits your needs</h3>
+                    </div>
+                    <div class="content-needs row mt-5 d-flex justify-content-center">
+                        <div class="px-3 col-12 col-sm-6 col-lg-4 px-2">
+                            <div class="d-flex justify-content-center">
+                                <img class="d-flex" src="assets/img/needs/house-heart-e0e8b5.svg" alt="">
+                            </div>
+                            <h5 class="text-center mt-3">Runs in Cloud or On-Premises</h5>
+                            <p class="text-center mt-3">Choose our cloud solution to benefit from our infrastructure and
+                                service or install on
+                                your own servers and work completely independently.</p>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="px-3 col-12 col-sm-6 col-lg-4 mt-5 mt-sm-0 px-2">
+                            <div class="d-flex justify-content-center">
+                                <img class="d-flex" src="assets/img/needs/phone-action-check-1-7c275f.svg" alt="">
+                            </div>
+                            <h5 class="text-center mt-3">Full mobile support</h5>
+                            <p class="text-center mt-3">Access and control desktops, servers, machines, and devices via
+                                smartphone or tablet. Cross-compatible and platform independent.</p>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="px-3 col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0 px-2">
+                            <div class="d-flex justify-content-center">
+                                <img class="d-flex" src="assets/img/needs/color-brush-paint-e76bfe.svg" alt="">
+                            </div>
+                            <h5 class="text-center mt-3">Flexibility & customization</h5>
+                            <p class="text-center mt-3">Create your own version of AnyDesk and fit it to your individual
+                                needs. Allow a consistent brand experience for your users.</p>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end needs -->
+
+        <div class="community container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <h2 class="text-center">Join our community</h2>
+                    </div>
+                    <div class="img-community row d-flex justify-content-center mt-5">
+                        <div
+                            class="content-community d-flex flex-wrap justify-content-center justify-content-md-between">
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="assets/img/community/social-instagram-63cc5c.svg" alt="">
+                            </div>
+                            <p class="mt-3 text-center w-100">Instagram</p>
+                        </div>
+                        <div
+                            class="content-community d-flex flex-wrap justify-content-center justify-content-md-between">
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="assets/img/community/professional-network-linkedin-5d10a1.svg" alt="">
+                            </div>
+                            <p class="mt-3 text-center w-100">Linkedin</p>
+                        </div>
+                        <div
+                            class="content-community d-flex flex-wrap justify-content-center justify-content-md-between">
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="assets/img/community/social-media-facebook-338621.svg" alt="">
+                            </div>
+                            <p class="mt-3 text-center w-100">Facebook</p>
+                        </div>
+                        <div
+                            class="content-community d-flex flex-wrap justify-content-center justify-content-md-between">
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="assets/img/community/social-media-reddit-c78a92.svg" alt="">
+                            </div>
+                            <p class="mt-3 text-center w-100">Reddit</p>
+                        </div>
+                        <div
+                            class="content-community d-flex flex-wrap justify-content-center justify-content-md-between mt-5 mt-md-0">
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="assets/img/community/social-video-youtube-clip-57b798.svg" alt="">
+                            </div>
+                            <p class="mt-3 text-center w-100">Youtube</p>
+                        </div>
+                        <div
+                            class="content-community d-flex flex-wrap justify-content-center justify-content-md-between mt-5 mt-md-0">
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="assets/img/community/tiktok-logo-red-06fc15.svg" alt="">
+                            </div>
+                            <p class="mt-3 text-center w-100">Tiktok</p>
+                        </div>
+                        <div
+                            class="content-community d-flex flex-wrap justify-content-center justify-content-md-between mt-5 mt-md-0">
+                            <div class="w-100 d-flex justify-content-center">
+                                <img src="assets/img/community/twitter-logo-red-03eb4e.svg" alt="">
+                            </div>
+                            <p class="mt-3 text-center w-100">Twitter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end community -->
+
+        <footer class="footer container-fluid">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="nav-footer col-12 col-sm-6 col-lg-3">
+                        <h4>Why AnyDesk</h4>
+                        <p>Time-saving</p>
+                        <p>Secure</p>
+                        <p>All Platforms</p>
+                        <p>Customizable</p>
+                        <p>Case Studies</p>
+                        <p>Features</p>
+                    </div>
+                    <div class="nav-footer col-12 col-sm-6 col-lg-3">
+                        <h4>Solutions</h4>
+                        <p>Remote Desktop</p>
+                        <p>Remote Support</p>
+                        <p>Remote Work</p>
+                        <p>Remote Access</p>
+                        <p>Mobile Device Support</p>
+                        <p>Cloud vs On-Premises</p>
+                        <p>Enterprise Solution</p>
+                        <p>Buy Now</p>
+                        <p>Downloads</p>
+                    </div>
+                    <div class="nav-footer col-12 col-sm-6 col-lg-3 mt-5 mt-lg-0">
+                        <h4>Support</h4>
+                        <p>AnyDesk Services</p>
+                        <p>Customer Success</p>
+                        <p>Help Center</p>
+                        <p>my.anydesk.com</p>
+                        <p>go.anydesk.com</p>
+                        <p>Abuse Prevention</p>
+                        <p>System Status</p>
+                        <p>Changelog</p>
+                    </div>
+                    <div class="nav-footer col-12 col-sm-6 col-lg-3 mt-5 mt-lg-0">
+                        <h4>Company</h4>
+                        <p>AnyDesk Team</p>
+                        <p>Contact Us</p>
+                        <p>Open Positions</p>
+                        <p>Partners</p>
+                        <p>Blog</p>
+                        <p>Press</p>
+                        <p>Events</p>
+                        <p>Fanshop</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- end footer -->
+        <div class="footer-me2 container-fluid">
+            <div>
+                <h3>Coded by Alireza hasanpour</h3>
+            </div>
+            <div class="line-f col-9 col-lg-4"></div>
+            <div class="social-f2">
+                <div>
+                    <span><i class="bi bi-instagram"></i></span>
+                    <a href="https://www.instagram.com/alireza_hasanpour_frontend">@alireza_hasanpour_frontend</a>
+                </div>
+                <div>
+                    <span><i class="bi bi-linkedin"></i></span>
+                    <a
+                        href="https://www.linkedin.com/in/alireza-hasanpour-frontend/">linkedin.com/in/alireza-hasanpour-frontend</a>
+                </div>
+                <div>
+                    <span><i class="bi bi-github"></i></span>
+                    <a href="https://github.com/alirezafrontend/">github.com/alirezafrontend</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- end footer-me2 -->
+
+        <div id="footer-me" class="d-none d-lg-flex">
+            <div>
+                <div>
+                    <a href="https://www.instagram.com/alireza_hasanpour_frontend">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://github.com/alirezafrontend/">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/alireza-hasanpour-frontend/">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="assets/img/me.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
